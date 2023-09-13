@@ -1,0 +1,86 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/lnunes/projects/dev/POC_Zuh/CasesControl/CasesControl/CasesControl.csproj": {}
+  },
+  "projects": {
+    "/home/lnunes/projects/dev/POC_Zuh/CasesControl/CasesControl/CasesControl.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/lnunes/projects/dev/POC_Zuh/CasesControl/CasesControl/CasesControl.csproj",
+        "projectName": "CasesControl",
+        "projectPath": "/home/lnunes/projects/dev/POC_Zuh/CasesControl/CasesControl/CasesControl.csproj",
+        "packagesPath": "/home/lnunes/.nuget/packages/",
+        "outputPath": "/home/lnunes/projects/dev/POC_Zuh/CasesControl/CasesControl/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/lnunes/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[8.0.0-preview.7.23375.6, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0-preview.7.23375.6, )"
+            },
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.21.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.21.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/lnunes/.dotnet/sdk/6.0.405/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
